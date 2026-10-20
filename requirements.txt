@@ -1,0 +1,14 @@
+# Training + driving. Python 3.10-3.12 recommended.
+#
+# On YOUR Mac (Apple Silicon): replace the tensorflow line with:
+#     tensorflow-macos>=2.16
+#     tensorflow-metal        # optional GPU acceleration
+# On free Google Colab, TensorFlow is pre-installed -- skip that line entirely.
+tensorflow>=2.16
+numpy>=1.24
+Pillow>=10.0
+
+# Only needed by drive.py (the local connection to the simulator):
+python-engineio>=4.3   # drive.py talks engine.io directly (see its docstring); no socketio server needed
+eventlet>=0.35
+Flask>=3.0

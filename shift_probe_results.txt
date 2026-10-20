@@ -1,0 +1,6 @@
+label shift -4 frames: held-out corr 0.587 | pred std 0.069
+label shift -2 frames: held-out corr 0.592 | pred std 0.092
+label shift +0 frames: held-out corr 0.303 | pred std 0.009
+label shift +2 frames: held-out corr 0.563 | pred std 0.102
+label shift +4 frames: held-out corr 0.453 | pred std 0.086
+DONE

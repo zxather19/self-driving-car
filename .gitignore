@@ -1,0 +1,26 @@
+# Recordings and downloads (far too large for git; regenerate by driving)
+data/
+downloads/
+simulator/
+
+# Trained model binaries (produced by train.py)
+*.h5
+
+# Local kits and archives
+autonomous-kit/
+*.zip
+
+# Scratch / test harnesses
+socktest/
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
